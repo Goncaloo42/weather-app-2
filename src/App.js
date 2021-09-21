@@ -1,11 +1,12 @@
 import "./App.css";
 import WeatherPage from "./pages/WeatherPage";
+import Layout from "./components/layout/Layout";
 
 function App() {
   return (
-    <div className="App">
+    <Layout>
       <WeatherPage />
-    </div>
+    </Layout>
   );
 }
 
