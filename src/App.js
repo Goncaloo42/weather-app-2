@@ -1,4 +1,3 @@
-import "./App.css";
 import WeatherPage from "./pages/WeatherPage";
 import Layout from "./components/layout/Layout";
 
