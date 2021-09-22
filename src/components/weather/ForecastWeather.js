@@ -1,8 +1,9 @@
+import Card from "../ui/Card";
 import classes from "./ForecastWeather.module.css";
 
 const ForecastWeather = (props) => {
   return (
-    <div className={classes.card}>
+    <Card className={classes.card}>
       <div>{props.forecastWeather.dayOfWeek}</div>
       <div>{props.forecastWeather.dayOfMonth}</div>
 
@@ -14,7 +15,7 @@ const ForecastWeather = (props) => {
         {props.forecastWeather.windDirection}
       </div>
       <div>{props.forecastWeather.iconCode}</div>
-    </div>
+    </Card>
   );
 };
 export default ForecastWeather;

@@ -1,8 +1,10 @@
+import Card from "../ui/Card";
+
 import classes from "./CurrentWeather.module.css";
 
 const CurrentWeather = (props) => {
   return (
-    <div className={classes.card}>
+    <Card className={classes.card}>
       <div>{props.currentWeather.location}</div>
       <div>{props.currentWeather.date}</div>
       <div>{props.currentWeather.temperature}</div>
@@ -14,7 +16,7 @@ const CurrentWeather = (props) => {
         {props.currentWeather.windDirection}
       </div>
       <div>{props.currentWeather.iconCode}</div>
-    </div>
+    </Card>
   );
 };
 export default CurrentWeather;

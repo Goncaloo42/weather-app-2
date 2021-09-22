@@ -22,7 +22,7 @@ export const DUMMY_FORECAST = [
     description: "mucho calor",
     windSpeed: 420,
     windDirection: "Blaze it",
-    iconCode: "420",
+    iconCode: ":)",
   },
   {
     location: "Leiria",
@@ -31,9 +31,9 @@ export const DUMMY_FORECAST = [
     temperature: 24,
     tempMax: 30,
     tempMin: 18,
-    description: "mucho calor",
+    description: "ainda mais calor",
     windSpeed: 420,
-    windDirection: "Blaze it",
-    iconCode: "420",
+    windDirection: "Everywhere",
+    iconCode: "xD",
   },
 ];
